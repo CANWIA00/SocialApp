@@ -1,27 +1,68 @@
-<h1 align="center">JWT Spring Boot Security</h1>
+# SocialMedia Application
 
-###
+Welcome to our SocialMedia application! This application is built with Spring Boot and utilizes JWT for authentication, Spring Security 3.0 for secure endpoints, and WebSocket for real-time communication.
 
-<h4 align="center">Spring Boot 3.0 & Security 6.0<br>JSON Web Token Authentication and Authorization</h4>
+## Features
 
-###
+- User Authentication: JWT-based authentication system for secure user login and access control.
+- Real-time Messaging: Utilizes WebSocket for real-time messaging between users.
+- CRUD Operations: Enables users to create, read, update, and delete posts and interact with other users' posts.
 
-<h2 align="center">JWT</h2>
+## Technologies Used
+- Java: 17
+- Spring Boot: Framework for building Java-based enterprise applications.
+- JWT (JSON Web Tokens): Authentication mechanism for securing API endpoints.
+- Spring Security 3.0: Provides comprehensive security services for Java EE-based enterprise software applications.
+- WebSocket: Protocol for full-duplex communication channels over a single TCP connection.
 
-###
+## Setup Instructions
 
-<div align="center">
-  <img height="300" src="https://res.cloudinary.com/practicaldev/image/fetch/s--8_fn2y9P--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zs4wxjxb4aacxtzi9ps6.png"  />
-</div>
+1. **Clone the Repository:**
 
-###
+    ```bash
+    git clone https://github.com/your-username/socialmedia-app.git
+    ```
 
-<h4 align="center">JWT Authentication and Authorization Arcitecture</h4>
+2. **Navigate to the Project Directory:**
 
-###
+    ```bash
+    cd socialmedia-app
+    ```
 
-<div align="center">
-  <img height="400" src="https://www.bezkoder.com/wp-content/uploads/2020/05/spring-boot-jwt-mysql-spring-security-architecture.png"  />
-</div>
+3. **Build the Application:**
 
-###
+    ```bash
+    ./mvnw clean package
+    ```
+
+4. **Run the Application:**
+
+    ```bash
+    java -jar target/socialmedia-app.jar
+    ```
+
+5. **Access the Application:**
+
+    Open your web browser and go to [http://localhost:8080](http://localhost:8080).
+
+## Configuration
+
+- `application.properties`: Configuration file for Spring Boot properties.
+- `security-config.xml`: Configuration file for Spring Security settings.
+- `WebSocketConfig.java`: Configuration class for WebSocket.
+
+
+## Usage
+
+- Register a new user account or log in with existing credentials.
+- Explore the application features such as creating posts, commenting on posts, and messaging other users.
+- Log out when you're finished using the application.
+
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- Your Name
+- Email: your@email.com
+- GitHub: [your-username](https://github.com/your-username)
