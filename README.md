@@ -1,70 +1,73 @@
-![image](https://github.com/CANWIA00/SocialApp/assets/88516058/a6950335-4bb8-4436-9a28-8f859f6cfca0)# SocialMedia Application
+# SocialMedia Application
 
 Welcome to our SocialMedia application! This application is built with Spring Boot and utilizes JWT for authentication, Spring Security 3.0 for secure endpoints, and WebSocket for real-time communication.
 
+---
+
+## Usage
+
+1. **Register/Login**: Create a new user account or log in using existing credentials to access the application.
+2. **Explore Features**: Discover various application features such as creating posts, commenting, liking, following other users, and real-time messaging.
+3. **Logout**: Always remember to log out when you're finished using the application to ensure the security of your account.
+
+---
+
 ## Features
 
-- User Authentication: JWT-based authentication system for secure user login and access control.
-- Real-time Messaging: Utilizes WebSocket for real-time messaging between users.
-- CRUD Operations: Enables users to create, read, update, and delete posts and interact with other users' posts.
+- **User Authentication**: JWT-based authentication system ensures secure user login and access control.
+- **Real-time Messaging**: Utilizes WebSocket for instant messaging between users.
+- **CRUD Operations**: Enables users to create, read, update, and delete posts.
+
+---
 
 ## Technologies Used
+
 - Java: 17
 - Spring Boot: Framework for building Java-based enterprise applications.
 - JWT (JSON Web Tokens): Authentication mechanism for securing API endpoints.
 - Spring Security 3.0: Provides comprehensive security services for Java EE-based enterprise software applications.
 - WebSocket: Protocol for full-duplex communication channels over a single TCP connection.
 
-## Setup Instructions
+---
 
-1. **Clone the Repository:**
+## Project Scale
 
-    ```bash
-   ![image](https://github.com/CANWIA00/SocialApp/assets/88516058/8f3095ef-0aa2-45c2-89bc-994cd3ea9614)
+### Database Tables and Relations
 
-    ```
+We have designed the following database tables and their relations to efficiently manage our application's data:
 
-2. **Navigate to the Project Directory:**
+![Database Schema](https://github.com/CANWIA00/SocialApp/assets/88516058/d0ff95c9-b6da-4296-b802-35bf24ed0e9a)
 
-    ```bash
-    cd socialmedia-app
-    ```
+This database schema illustrates the structure and relationships between different entities in our application.
 
-3. **Build the Application:**
+### JWT - JSON Web Token
 
-    ```bash
-    ./mvnw clean package
-    ```
+We leverage JSON Web Tokens (JWT) for user authentication, enabling secure access to our application:
 
-4. **Run the Application:**![Uploading image.png…]()
+![JWT Authentication](https://github.com/CANWIA00/SocialApp/assets/88516058/3b3e5ad7-e742-41aa-904e-9675c17601a8)
 
+JWT allows seamless user authentication and access management. 
 
-    ```bash
-    java -jar target/socialmedia-app.jar
-    ```
+### WebSocket
 
-5. **Access the Application:**
+We utilize WebSocket technology to enable real-time communication between users:
 
-    Open your web browser and go to [http://localhost:8080](http://localhost:8080).
+![WebSocket Communication](https://github.com/CANWIA00/SocialApp/assets/88516058/b95ab61f-2455-4323-8541-6783d33d55db)
+
+WebSocket ensures efficient real-time messaging, enhancing user engagement.
+
+---
 
 ## Configuration
 
 - `application.properties`: Configuration file for Spring Boot properties.
-- `security-config.xml`: Configuration file for Spring Security settings.
+- `ApplicationConfig.java`: Custom application configuration class.
+- `SecurityConfig.java`: Configuration file for Spring Security settings.
 - `WebSocketConfig.java`: Configuration class for WebSocket.
+- `OpenApiConfig.java`: Configuration class for Swagger/OpenAPI integration.
+
+These configuration files provide flexibility and control over various aspects of our application.
+
+---
 
 
-## Usage
-
-- Register a new user account or log in with existing credentials.
-- Explore the application features such as creating posts, commenting on posts, and messaging other users.
-- Log out when you're finished using the application.
-
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out:
-
-- Your Name
-- Email: your@email.com
-- GitHub: [your-username](https://github.com/your-username)
