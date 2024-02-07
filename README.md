@@ -1,4 +1,4 @@
-# SocialMedia Application
+![image](https://github.com/CANWIA00/SocialApp/assets/88516058/a6950335-4bb8-4436-9a28-8f859f6cfca0)# SocialMedia Application
 
 Welcome to our SocialMedia application! This application is built with Spring Boot and utilizes JWT for authentication, Spring Security 3.0 for secure endpoints, and WebSocket for real-time communication.
 
@@ -20,7 +20,8 @@ Welcome to our SocialMedia application! This application is built with Spring Bo
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/socialmedia-app.git
+   ![image](https://github.com/CANWIA00/SocialApp/assets/88516058/8f3095ef-0aa2-45c2-89bc-994cd3ea9614)
+
     ```
 
 2. **Navigate to the Project Directory:**
@@ -35,7 +36,8 @@ Welcome to our SocialMedia application! This application is built with Spring Bo
     ./mvnw clean package
     ```
 
-4. **Run the Application:**
+4. **Run the Application:**![Uploading image.png…]()
+
 
     ```bash
     java -jar target/socialmedia-app.jar
